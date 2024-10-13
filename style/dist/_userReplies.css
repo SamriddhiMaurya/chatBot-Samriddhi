@@ -1,0 +1,36 @@
+.userPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px 25px;
+}
+.userPart__text {
+  font-size: 14px;
+  color: #181919;
+  line-height: 18px;
+}
+
+.userresponse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  padding: 0 25px 12px;
+}
+.userresponse__label {
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+.userresponse__text {
+  border-radius: 20px;
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom-right-radius: 5px;
+  padding: 15px 17px;
+}
